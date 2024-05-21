@@ -1,0 +1,83 @@
+h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Paralines-Regular';
+    font-weight:100;
+    color: green;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    font-family: 'Paralines-Regular';
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    margin: 5px;
+    cursor: pointer;
+    color: red;
+
+    box-shadow: 3px 4px 1px 2px rgba(1, 1, 1, 0.1);
+    text-shadow: 2px 3px 1px rgba(1, 1, 1, 0.3);
+    user-select: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#win_message {
+    font-family: 'Paralines-Regular';
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#again {
+    font-family: 'Paralines-Regular';
+    display: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: #369;
+    text-align: center;
+}
+
+#again:hover {
+    font-size: 45px;
+}
+
+#field {
+    position: relative;
+}
+
+#field .table {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+#field table tr:first-child div {
+    margin-top: 0;
+}
+
+#field table tr:last-child div {
+    margin-bottom: 0;
+}
+
+#field table tr td:first-child div {
+    margin-left: 0;
+}
+
+#field table tr td:last-child div {
+    margin-right: 0;
+}
+
+@font-face {
+    font-family: 'Paralines-Regular';
+    src: url('./font/Paralines-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
